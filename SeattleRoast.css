@@ -1,0 +1,47 @@
+h1, h4, p, h5, h3 {
+
+  text-align: center;
+}
+
+h1{
+  font-size: 70px;
+  font-family: 'Amatic SC', cursive;
+}
+
+p, h4 {
+  line-height: 1.6;
+  font-family: 'Jura', sans-serif;
+  background-color: #ffffff;
+}
+a:visited, a:link{
+  color: #000000;
+
+}
+
+
+h4 {
+  font-style: italic;
+}
+a {
+  font-size: 40px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+.parallax {
+    /* The image used */
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image1 {
+   background-image: url("unnamed.jpg");
+}
+
+.image2{
+  background-image: url("dinos.jpg")
+}
