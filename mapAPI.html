@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+  <head>
+    <title> Weather Map </title>
+    <link rel="stylesheet" href="https://openlayers.org/en/v4.6.4/css/ol.css" type="text/css">
+    <script src="https://openlayers.org/en/v4.6.4/build/ol.js" type="text/javascript"></script>
+
+    <script src="mapAPI.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Gloria+Hallelujah|Jura" rel="stylesheet">
+    <link rel ="stylesheet"; href = "SeattleRoast.css">
+    <script src="SeattleRoast.js"></script>
+  </head>
+
+  <body>
+    <div class="topnav">
+      <a id="home" href="SeattleRoast.html" onmouseover="makeGrey(home)" onmouseout="makeBlack(home)">Home</a>
+      <a id="about" href="aboutMe.html" onmouseover="makeGrey(about)" onmouseout="makeBlack(about)">All About Me</a>
+      <a id="places" href="mapAPI.html" onmouseover="makeGrey(places)" onmouseout="makeBlack(places)">Places I've Been</a>
+    </div>
+    <p>
+      <textarea id="country-name" rows="1" cols="20"> Input a Country </textarea>
+      <button onclick="panToLocation()"> Pan to Country </button>
+      <button onclick="panHome()"> Pan back to Home </button>
+    </p>
+    <div id="map" class="map"></div>
+    <footer>
+      <p>This tutorial is based on code from: <a href="http://openlayers.org/en/latest/examples/animation.html">Open Layers View Animation</a> </p>
+      <p>This map uses the <a href="http://openlayers.org/en/latest/apidoc/">Open Layers API</a></p>
+    </footer>
+  </body>
+</html>
