@@ -47,13 +47,13 @@ a {
 }
 
 .topnav{
-  background-color: black;
+  background-color: #f0f5f5;
   overflow: hidden;
   text-align: center;
 }
 
 .topnav a {
-  transition: background-color 0.5s;
+  transition: background-color 1s;
   display: inline-block;
   color: white;
   padding: 14px 16px;
